@@ -21,6 +21,7 @@ public class Inventario {
     @Column(name="stock_disponible")
     private Integer stockDisponible;
 
-    private String ubicacion_bodega;
+    @Column(name="ubicacion_bodega")
+    private String ubicacionBodega;
 
 }
