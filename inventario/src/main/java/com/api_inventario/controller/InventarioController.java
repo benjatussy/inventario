@@ -7,8 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo; 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 import org.springframework.hateoas.Link;
 
 import com.api_inventario.dto.InventarioDTO;
